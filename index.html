@@ -14,17 +14,21 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
-    <title>Document</title>
+    <title>MYCINEMA</title>
   </head>
   <body>
     <!-- bagian header -->
     <header>
       <div class="container">
         <div class="container-header">
-          <h1>MY CINEMA</h1>
+          <h1>MYCINEMA</h1>
           <ul class="menubar">
             <li>Sign in</li>
             <li>Login</li>
@@ -35,10 +39,10 @@
     <!-- akhir header -->
 
     <!-- bagian konten website -->
-    <div class="container content-wrapper">
+    <div class="container content-wrapper noselect">
       <div class="top-wrapper">
         <div class="heading">
-          <h1>MY CINEMA</h1>
+          <h1>MYCINEMA</h1>
         </div>
         <div class="description">
           <p>
@@ -65,55 +69,140 @@
           <a href="#">NEW</a>
         </div>
       </div>
+
       <div class="movies">
         <div class="movies-list">
-          <!-- img dalam card start sampai tag a ditutup-->
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=r0FvP_Ui-xY"
-            target="_blank"
-          >
-            <img src="src/images/One_Piece_Film_Red_Visual_Poster.jpg" />
-            <p>One Piece Red (2022)</p>
-          </a>
-          <!-- closeTag -->
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=uLtkt8BonwM"
-            target="_blank"
-            ><img src="src/images/theLastofUs.jpg" />
-            <p>The Last Of Us (2023)</p></a
-          >
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=JqcncLPi9zw"
-            target="_blank"
-            ><img src="src/images/guardiangalaxyvol3.jpg" />
-            <p>Guardian Of The Galaxy Vol3 (2023)</p></a
-          >
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=Go8nTmfrQd8"
-            target="_blank"
-            ><img src="src/images/thorLoveandThunder.jpg" />
-            <p>Thor Love and Thunder (2022)</p></a
-          >
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=ZlNFpri-Y40"
-            target="_blank"
-            ><img src="src/images/AntmanWasp.jpg" />
-            <p>Ant-Man and the Wasp: Quantumania (2023)</p></a
-          >
-          <a
-            class="card"
-            href="https://www.youtube.com/watch?v=6DxjJzmYsXo"
-            target="_blank"
-            ><img src="src/images/minions.jpg" />
-            <p>Minions The Rise Of Gru (2022)</p></a
-          >
+          <div class="poster">
+            <a
+              href="https://www.youtube.com/watch?v=r0FvP_Ui-xY"
+              target="_blank"
+            >
+              <img
+                src="src/images/One_Piece_Film_Red_Visual_Poster.jpg"
+                class="image-poster"
+                alt="One Piece"
+              />
+
+              <span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>One Piece Red</h3>
+            <span>2022</span>
+          </div>
         </div>
-        <!-- Batas Movies List -->
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/AntmanWasp.jpg"
+                class="image-poster"
+                alt="Ant Man Quantumania"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Ant Man Wasp Quantumania</h3>
+            <span>2023</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/thorLoveandThunder.jpg"
+                class="image-poster"
+                alt="Thor Love and Thunder"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Thor Love and Thunder</h3>
+            <span>2022</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/theLastofUs.jpg"
+                class="image-poster"
+                alt="The Last Of Us"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>The Last Of Us</h3>
+            <span>2023</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/blackadam.jpg"
+                class="image-poster"
+                alt="Black Adam"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Black Adam</h3>
+            <span>2022</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/scream.jpg"
+                class="image-poster"
+                alt="Scream"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Scream</h3>
+            <span>2022</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/Doc.jpg"
+                class="image-poster"
+                alt="Doctor Strange"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Doctor Strange</h3>
+            <span>2022</span>
+          </div>
+        </div>
+
+        <div class="movies-list">
+          <div class="poster">
+            <a href="#" target="_blank">
+              <img
+                src="src/images/mariobros.jpg"
+                class="image-poster"
+                alt="Mario Bros Movie"
+              /><span class="btn-play fa fa-solid fa-play fa-2x"></span>
+            </a>
+          </div>
+          <div class="text-poster">
+            <h3>Super Mario Bros</h3>
+            <span>2023</span>
+          </div>
+        </div>
       </div>
     </div>
     <!-- bagian feedback-form -->
@@ -188,7 +277,7 @@
     <div class="container">
       <div class="bottom-bar">
         <div class="heading-bottom">
-          <h3>MY CINEMA</h3>
+          <h3>MYCINEMA</h3>
         </div>
         <div class="copyright">
           <p>&copy; 2023 Kelompok M-07 JAYA. All rights reserved.</p>
